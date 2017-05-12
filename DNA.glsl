@@ -50,12 +50,12 @@ float chain(in vec2 pos,float delay){
 }
 
 void main(){
-	vec2 st = gl_FragCoord.xy/iResolution.xy;
+  vec2 st = gl_FragCoord.xy/iResolution.xy;
   st.y *= iResolution.y/iResolution.x;
 
   vec2 pos = vec2(0.5,0.5)-st;
 
   vec3 color = vec3( chain(pos,0.0), chain(pos,0.1),chain(pos,0.10));
 
-	gl_FragColor = vec4(color,1.0);
+  gl_FragColor = vec4(color,1.0);
 }
