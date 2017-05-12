@@ -2,4 +2,4 @@
 
 A DNA Animation (GLSL)
 
-<img src="https://github.com/HaijianLiu/dna-glsl/blob/master/DNA%402x.gif" width="400">
+<img src="https://github.com/HaijianLiu/dna-glsl/blob/preview/DNA@2x.gif?raw=true" width="400">
